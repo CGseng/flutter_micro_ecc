@@ -324,7 +324,7 @@ class __mbstate_t extends ffi.Union {
 
 class __darwin_pthread_handler_rec extends ffi.Struct {
   external ffi
-          .Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>
+      .Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>
       __routine;
 
   external ffi.Pointer<ffi.Void> __arg;
